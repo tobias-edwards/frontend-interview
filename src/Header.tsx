@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div className={styles.Header}>
+    <div className={styles.header}>
       <LogoSvg className={styles.logo} />
       <h1>Application Portal</h1>
     </div>
