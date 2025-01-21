@@ -1,5 +1,16 @@
-.Applications {
+.container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: fit-content;
 }
