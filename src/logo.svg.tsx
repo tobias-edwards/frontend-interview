@@ -8,7 +8,9 @@ const LogoSvg = ({ className }) => {
       viewBox="0 0 139 47"
       fill="#fb534a"
       className={className}
+      role="img"
     >
+      <title>Iwoca logo</title>
       <path
         d="M2.3173 11.8141C3.65889 11.8141 4.63459 10.7978 4.63459 9.40054C4.63459 8.00325 3.65889 6.98703 2.3173 6.98703C1.09767 6.86 0 8.00325 0 9.27352C0 10.6708 1.09767 11.8141 2.3173 11.8141Z"
         fill="white"
