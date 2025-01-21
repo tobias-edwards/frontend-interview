@@ -22,6 +22,10 @@ const Applications = () => {
     getApplications(page);
   }, [page]);
 
+  if (applications.length === 0) {
+    return null;
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.list}>
