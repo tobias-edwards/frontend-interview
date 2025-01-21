@@ -1,7 +1,7 @@
 .container {
   display: grid;
   overflow-x: auto;
-  grid-template-columns: 15% 15% auto 1fr 1fr 1fr;
+  grid-template-columns: 15% 15% auto 10% 10% 10%;
   padding: 20px 24px;
   gap: 24px;
 

@@ -4,7 +4,7 @@ export const formatAmount = (amount: number) => {
     currency: "GBP",
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
-  }).format(1234);
+  }).format(amount);
 };
 
 export const formatDate = (dateString) => {
